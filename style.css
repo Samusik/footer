@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d9d9d9;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+}
+.main-content {
+    display: flex;
+}
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.box .content {
+    margin: 20px 0 0 0;
+}
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+a {
+    text-decoration: none;
+}
+.left .content .social a span:hover {
+    background:#f12020;
+}
+button {
+    background: #f12020;
+    cursor: pointer;
+}
+.intro {
+    position: fixed;
+    width: 100%;
+    background-color:azure;
+    height: 100vh;
+    text-align: center;
+}
+.h {
+    margin-top: 20%;
+    color: #f12020;
+}
+h2 {
+    color: #f12020;
+}
